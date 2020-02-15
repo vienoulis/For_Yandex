@@ -1,6 +1,13 @@
 package ru.vienoulis.logic;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
+
+import static java.lang.Integer.parseInt;
 
 public class Bord {
     private final int X_SIZE;
@@ -11,13 +18,7 @@ public class Bord {
         this.X_SIZE = X_SIZE;
         this.Y_SIZE = Y_SIZE;
         this.essences = new Essence[X_SIZE][Y_SIZE];
-    }
 
-    public Essence[][] getEssences() {
-        return essences;
-    }
-
-    public void setEssences() {
         for (int i = 0; i < Y_SIZE; i++) {
             for (int j = 0; j < X_SIZE ; j++) {
                 this.essences[j][i] = new Essence(new Random().nextInt(2), j, i);
@@ -26,8 +27,35 @@ public class Bord {
         }
     }
 
+    public Bord(String fileName) {
+
+        File fail = new File(fileName);
+        List<String> strings = new ArrayList<>();
+        int countY = 0;
+        try (Scanner scanner = new Scanner(fail)){
+            while (scanner.hasNext()){
+                strings.add(scanner.next());
+                countY++;
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        this.X_SIZE = strings.get(0).length();
+        this.Y_SIZE = strings.size();
+        this.essences = new Essence[X_SIZE][Y_SIZE];
+        for (int i = 0; i < Y_SIZE; i++) {
+            for (int j = 0; j < X_SIZE; j++) {
+                int value = Integer.parseInt(String.valueOf(strings.get(i).charAt(j)));
+                this.essences[j][i] = new Essence(value, j, i);
+            }
+        }
+    }
+
+    public Essence[][] getEssences() {
+        return essences;
+    }
+
     public void initBord(){
-        setEssences();
         for (int i = 0; i < Y_SIZE; i++) {
             for (int j = 0; j < X_SIZE ; j++) {
                 System.out.print(essences[j][i].toString());

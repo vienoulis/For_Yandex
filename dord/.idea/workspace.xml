@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cc9b8e1-c410-4215-b638-42139f2b6889" name="Default Changelist" comment="" />
+    <list default="true" id="8cc9b8e1-c410-4215-b638-42139f2b6889" name="Default Changelist" comment="Добавил возможность чтоения файла.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coord.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vienoulis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vienoulis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vienoulis/logic/Bord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vienoulis/logic/Bord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vienoulis/logic/Coord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vienoulis/logic/Coord.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +21,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XmKrts4KkYY0aaalWwvR2Sdlm4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -57,43 +69,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581646031866</updated>
-      <workItem from="1581646035045" duration="18764000" />
+      <workItem from="1581646035045" duration="20612000" />
+      <workItem from="1581717407756" duration="11100000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил возможность чтоения файла." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил возможность чтоения файла." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="230" width="390" height="516" key="#com.intellij.ide.util.MemberChooser" timestamp="1581696239318">
+    <state x="765" y="230" width="390" height="516" key="#com.intellij.ide.util.MemberChooser" timestamp="1581719808237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581696239318" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581719808237" />
     <state x="765" y="230" width="390" height="516" key="#com.intellij.ide.util.MemberChooser/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1581648874714" />
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1581690650484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581690650484" />
-    <state width="1877" height="452" key="GridCell.Tab.0.bottom" timestamp="1581714538871">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1581728650446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="452" key="GridCell.Tab.0.bottom/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581714538871" />
+    <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581728650446" />
+    <state width="1877" height="452" key="GridCell.Tab.0.bottom" timestamp="1581728556038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="452" key="GridCell.Tab.0.bottom/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581728556038" />
     <state width="1877" height="439" key="GridCell.Tab.0.bottom/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1581648280246" />
-    <state width="1877" height="452" key="GridCell.Tab.0.center" timestamp="1581714538870">
+    <state width="1877" height="452" key="GridCell.Tab.0.center" timestamp="1581728556038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="452" key="GridCell.Tab.0.center/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581714538870" />
+    <state width="1877" height="452" key="GridCell.Tab.0.center/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581728556038" />
     <state width="1877" height="439" key="GridCell.Tab.0.center/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1581648280245" />
-    <state width="1877" height="452" key="GridCell.Tab.0.left" timestamp="1581714538870">
+    <state width="1877" height="452" key="GridCell.Tab.0.left" timestamp="1581728556037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="452" key="GridCell.Tab.0.left/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581714538870" />
+    <state width="1877" height="452" key="GridCell.Tab.0.left/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581728556037" />
     <state width="1877" height="439" key="GridCell.Tab.0.left/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1581648280245" />
-    <state width="1877" height="452" key="GridCell.Tab.0.right" timestamp="1581714538871">
+    <state width="1877" height="452" key="GridCell.Tab.0.right" timestamp="1581728556038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="452" key="GridCell.Tab.0.right/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581714538871" />
+    <state width="1877" height="452" key="GridCell.Tab.0.right/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581728556038" />
     <state width="1877" height="439" key="GridCell.Tab.0.right/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1581648280246" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581717476273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581717476273" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581728604126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1600.860/0.0.1920.1040/-1920.0.1280.680@0.0.1920.1040" timestamp="1581728604126" />
     <state x="656" y="118" width="607" height="804" key="find.popup" timestamp="1581646849742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
